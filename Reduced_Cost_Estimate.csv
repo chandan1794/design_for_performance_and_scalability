@@ -1,0 +1,41 @@
+Your Estimate,,,,
+Service Type,Components,Region,Component Price,Service Price
+Amazon S3 Service (US East (N. Virginia)),,,,$321.17
+,S3 Standard Storage:,US East (N. Virginia),$235.52,
+,S3 Standard Put Requests:,US East (N. Virginia),$2.50,
+,S3 Standard Other Requests:,US East (N. Virginia),$0.20,
+,S3 Standard Select Data Returned:,US East (N. Virginia),$21.51,
+,S3 Standard Select Data Scanned:,US East (N. Virginia),$61.44,
+Amazon Route 53 Service,,,,$58.90
+,Hosted Zones:,Global,$0.50,
+,Traffic Flow:,Global,$50.00,
+,Standard Queries:,Global,$4.00,
+,Latency Based Routing Queries:,Global,$3.00,
+,Geo DNS Queries:,Global,$1.40,
+Amazon CloudFront Service,,,,$2957.29
+,Data Transfer Out:,Global,$2150.00,
+,Data Transfer Out to Origin:,Global,$512.00,
+,Requests:,Global,$295.29,
+Amazon DynamoDB Service (US East (N. Virginia)),,,,$1398.75
+,On-demand Capacity:,US East (N. Virginia),$0.00,
+,Provisioned Capacity:,US East (N. Virginia),$0.00,
+,Indexed Data Storage:,US East (N. Virginia),$1398.75,
+,DynamoDB Streams:,US East (N. Virginia),$0.00,
+,On-demand backup:,US East (N. Virginia),$0.00,
+,Continuous backup (PITR):,US East (N. Virginia),$0.00,
+,Restoring a table:,US East (N. Virginia),$0.00,
+AWS Lambda,,,,$815.80
+,Number of requests ,US East (N. Virginia),$815.80,
+AWS Support (Business),,,,$530.37
+,Support for all AWS services:,,$530.37,
+,,Free Tier Discount:,,-$6.39
+,,Total Monthly Payment:,,$6075.89
+,,,,
+Reasons why decreasing the cost is required,,,,
+1. Overestimation of resources,,,,
+2. Didn’t know the cloud architecture better,,,,
+,,,,
+Changes made to decrease the price,,,,
+Most of the price involves is in processing and transferring of data.,,,,
+Here processing part is not that much but transferring in requests is too much.,,,,
+"Once we realize that we have estimated more data transfer between client and the cloud, so decrease in the resources of Cloudfront and S3 brought down the total cost.",,,,
